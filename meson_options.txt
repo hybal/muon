@@ -1,0 +1,11 @@
+option('arch-enable', 
+  type : 'array', 
+  value : ['all'],
+  description : 'Enable an architecture target(s)',
+)
+
+option('platform-enable',
+  type : 'array',
+  value : ['all'],
+  description : 'Enable a platform target(s)',
+)
